@@ -1,0 +1,51 @@
+/* src/components/Header/Header.css */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinha logo à esquerda e nav à direita */
+  padding: 10px 20px; /* Adiciona um pouco de espaço interno */
+  background-color: #f0f8ff; /* Cor de fundo do cabeçalho */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; /* Ajuste a altura do logo conforme necessário */
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px; /* Distância entre os itens do menu */
+}
+
+.navbar li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #007bff; /* Cor do texto do link */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.navbar li a:hover {
+  color: #0056b3; /* Cor ao passar o mouse sobre o link */
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #007bff; /* Cor azul */
+  cursor: pointer;
+  text-decoration: underline; /* Texto sublinhado */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+.logout-button:hover {
+  color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}

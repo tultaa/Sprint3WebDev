@@ -1,0 +1,50 @@
+/* src/components/Home/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /* Ocupa toda a altura da tela */
+    text-align: center;
+    background-color: #f0f8ff; /* Cor de fundo da página */
+  }
+  
+  .home-title {
+    font-size: 3rem; /* Tamanho grande */
+    font-weight: bold; /* Negrito */
+    margin: 20px 0; /* Margem superior e inferior */
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem; /* Tamanho um pouco menor */
+    margin-bottom: 20px; /* Margem inferior */
+  }
+  
+  .home-login-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    width: 300px;
+    background-color: #007bff; /* Cor do botão */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
+    transition: background-color 0.3s; /* Transição suave */
+  }
+  
+  .home-login-button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  .home-image-container {
+    margin-top: 20px; /* Espaço acima da imagem */
+  }
+  
+  .home-large-image {
+    padding-top: 100px;
+    max-width: 100%; /* Responsivo */
+    height:300px; /* Mantém a proporção da imagem */
+  }
+  

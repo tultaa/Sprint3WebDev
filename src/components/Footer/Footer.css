@@ -1,0 +1,10 @@
+/* Footer.css */
+footer {
+    background-color: #004f91; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+}

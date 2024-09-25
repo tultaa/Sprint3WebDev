@@ -1,0 +1,33 @@
+/* Events.css */
+#events {
+    padding: 40px;
+    background-color: #e3f2fd; /* Azul muito claro */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#events h2 {
+    text-align: center;
+    color: #004f91; /* Azul escuro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #004f91; /* Azul escuro */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Fundo de linha em hover */
+}

@@ -1,0 +1,33 @@
+/* src/components/Account/Account.css */
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Altura total da tela */
+    background-color: #f8f9fa; /* Azul claro */
+  }
+  
+  .account-section {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 40px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 320px; /* Largura fixa */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .logout-button {
+    background-color: #dc3545; /* Vermelho */
+    color: white; /* Texto branco */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
+  }
+  
