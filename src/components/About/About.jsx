@@ -1,6 +1,7 @@
 // src/components/About/About.jsx
 import './About.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
         </div>
 
         <div className="gallery-cta">
-          <a href="/gallery" className="btn-cta">Explore a Galeria</a>
+          <a className="btn-cta"><Link to="/gallery">Explore a Galeria</Link></a>
         </div>
       </section>
     </main>
